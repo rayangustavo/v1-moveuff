@@ -4,7 +4,7 @@ import logging
 logging.basicConfig(level="INFO")
 logger = logging.getLogger(__name__)
 
-DB_PATH = "./src/"
+DB_PATH = "./"
 
 def connect_db(db):
     db = DB_PATH + db
